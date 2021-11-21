@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <header>Paragraf 1</header>
+    <p title="">Tekst paragrafu: ABC</p>
+    <header>Paragraf 1</header>
+    <p title="">Tekst paragrafu: ABCD</p>
+    <header>Paragraf 1</header>
+    <p title="">Tekst paragrafu: ABCDE</p>
+    <header>Paragraf 1</header>
+    <p title="">Tekst paragrafu: ABCDEF</p>
+    <header>Paragraf 1</header>
+    <p title="">Tekst paragrafu: ABCDEFG</p>
+    <form
+      id="fo"
+      onsubmit="
+    event.preventDefault();addNewElement(event);"
+    >
+      <label for="fheader">Nagłówek:</label>
+      <input
+        type="text"
+        id="fheader"
+        name="fheader"
+        placeholder="Treść nagłówka"
+      />
+      <br />
+      <label for="fparagraph">Treść:</label>
+      <input
+        type="text"
+        id="fparagraph"
+        name="fparagraph"
+        placeholder="Treść paragrafu"
+      />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
